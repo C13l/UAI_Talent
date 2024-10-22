@@ -1,0 +1,40 @@
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+body.dark-mode {
+    background-color: #212529;
+    color: #ffffff;
+}
+body.light-mode {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.-texto{
+    font-size: 100px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.about{
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card-text{
+    font-size: x-large;
+}
+
+.socios{
+    align-items: center;
+}
+
+.socio{
+    height: 50%;
+    width: 50%;
+    align-self: center;
+
+}
