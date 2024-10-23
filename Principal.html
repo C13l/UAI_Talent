@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="index_styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Newergetics/About_us</title>
     <script src="colormode.js" async></script>
 </head>
 <body class="light-mode">
-    <header class="navbar navbar-expand-lg navbar-light bg-light">
+    <header class="navbar navbar-expand-lg custom-navbar">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Mi Página</a>
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" width="50" height="50" class="d-inline-block align-text-top">
+                Newergetics
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -37,60 +41,81 @@
 
 
     <main>
+        <div class="bienvenida">
         <h1 class="-texto">Bienvenidos</h1>
-        <div class="card text-bg-info border-success mb-3 about">
-            <div class="card-body">
-              <h3 class="card-title">¿Quiénes somos?</h3>
-              <p class="card-text">Somos un equipo de ingenieros expertos en gestión energética, con más de 10 años de experiencia en la temática.
+        </div>
+        <div class="about">
+            <div class="margenes">
+              <h2>¿Quiénes somos?</h2>
+              <p>Somos un equipo de ingenieros expertos en gestión energética, con más de 10 años de experiencia en la temática.
                 Brindamos asesoramiento especializado para garantizar un uso eficiente y sostenible de la energía, de manera de facilitar la transición hacia un modelo energético más eficiente y sostenible.</p>
             </div>
-        </div>
+            </div>
         
+    <section class="mission-vision">
+        <div class="container">
+            <div class="section-title">
+                <h2>Misión & Visión</h2>
+                <p class="subtitle">Conoce nuestros principios fundamentales</p>
+            </div>
+            
+            <div class="content-box">
+                <div class="box">
+                    <h3>Nuestra Misión</h3>
+                    <p>Transformar el consumo energético de hoy en soluciones inteligentes y sostenibles que impulsen un futuro más brillante y eficiente para todos.</p>
+                </div>
+                <div class="box">
+                    <h3>Nuestra Visión</h3>
+                    <p>Ser líderes en la creación de un entorno donde cada hogar y empresa utilicen energía de forma consciente, promoviendo un planeta más equilibrado, limpio y sostenible para las generaciones futuras.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+            <h2 class="Nosotros">NOSOTROS</h2>
 
+<div class="socios-group">
+    <div class="card socios-1">
+        <img src="img/Paula.png" class="card-img-top socio" alt="...">
+        <div class="card-body">
+            <h2 class="card-title">María Paula Güimil Domínguez</h2>
+            <p class="card-text">Ingeniera Electricista especialista en Eficiencia Energética (FIUBA), European Energy Manager (AHK Argentina - ITBA), Auditor Interno ISO 50001:2018 (IRAM).
+            </p>
+        </div>
+    </div>
 
-            <h2>Nosotros</h2>
-
-            <div class="container text-center socios">
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                  <div class="col">
-                    <div class="card h-100">
-                        <img src="img/Paula.png" class="card-img-top socio" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">María Paula Güimil Domínguez</h5>
-                          <p class="card-text">Ingeniera Electricista especialista en Eficiencia Energética (FIUBA), European Energy Manager (AHK Argentina - ITBA), Auditor Interno ISO 50001:2018 (IRAM).
-                        </p>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="col">
-                    <div class="card h-100">
-                        <img src="img/Luciana.png" class="card-img-top socio" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Luciana Rodríguez</h5>
-                          <p class="card-text">Ingeniera en Materiales (UNMDP), especialista en Ingeniería de la Calidad (UTN), diplomada en Gestión Energética (IRAM) y en Administración de Proyectos con financiamiento internacional (UNLZ).</p>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="col">
-                    <div class="card h-100">
+<div class="card socios-1">
+    <img src="img/Luciana.png" class="card-img-top socio" alt="...">
+    <div class="card-body">
+        <h2 class="card-title">Luciana Rodríguez</h2>
+        <p class="card-text">Ingeniera en Materiales (UNMDP), especialista en Ingeniería de la Calidad (UTN), diplomada en Gestión Energética (IRAM) y en Administración de Proyectos con financiamiento internacional (UNLZ).</p>
+    </div>
+</div>
+                    <div class="card socios-1">
                         <img src="img/Andres.png" class="card-img-top socio" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Andrés Valverde</h5>
+                          <h2 class="card-title">Andrés Valverde</h2>
                           <p class="card-text">Ingeniero en Materiales (UNLP), Auditor interno ISO 50001:2018 (IRAM), Industrial Energy Manager (Agencia de Sostenibilidad Chilena).</p>
                         </div>
-                      </div>
                   </div>
-                  <div class="col">
-                    <div class="card h-100">
+                    <div class="card socios-1">
                         <img src="img/Martin.png" class="card-img-top socio" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Martín Porro</h5>
+                          <h2 class="card-title">Martín Porro</h2>
                           <p class="card-text">Ingeniero Químico con especialidad en Ambiente (UTN), Postgrados en Gestión de Proyectos (PMI-UTN). Postgrado en Energía Nuclear (Dan Beninson), Especialista en Calidad y Auditor de Calidad y Diplomado en energías (CACME-WEC).</p>
                         </div>
-                      </div>
                   </div>
-                </div>
+</div>
     </main>
+
+    <footer></footer>
+        <h2 class="t2r">Redes Sociales</h2>
+        <div class="redes">
+            <a href="https://www.instagram.com/newergetics_consultoria?igsh=MWN5aGJxc2doNzNzNA=="><i class="bx bxl-instagram redes bx-border bx-lg"></i></a>
+            <a href="https://www.linkedin.com/in/newergetics-gestion-energetica/?originalSubdomain=ar"><i class='bx bxl-linkedin-square redes bx-border bx-lg'></i></a>
+            <a href="mailto:newergeticsconsultoria@gmail.com?subject=Asunto%20del%20correo&body=Mensaje%20a%20enviar"><i class='bx bxl-gmail redes bx-border bx-lg'></i></a>
+            <a href="https://x.com/Newergetics"><i class='bx bxl-twitter redes bx-border bx-lg'></i></a>
+        </div>
+    </footer>
 </body>
 </html>

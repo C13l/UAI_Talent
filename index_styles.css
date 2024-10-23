@@ -1,40 +1,17 @@
-body {
-    transition: background-color 0.3s, color 0.3s;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+body{
+    background-color: rgb(33, 147, 223);
+    font-family: 'Poppins', serif;
 }
-body.dark-mode {
-    background-color: #212529;
-    color: #ffffff;
-}
-body.light-mode {
-    background-color: #f8f9fa;
-    color: #212529;
+h1{
+    font-size: 500%;
+    margin-bottom: 5%;
+    margin-top: 20%;
 }
 
-.-texto{
-    font-size: 100px;
-    text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-top: 5%;
-    margin-bottom: 10%;
-}
-
-.about{
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.card-text{
-    font-size: x-large;
-}
-
-.socios{
-    align-items: center;
-}
-
-.socio{
-    height: 50%;
+.agrandar{
     width: 50%;
-    align-self: center;
-
+    height: 300%;
+    font-size: 400%;
 }
